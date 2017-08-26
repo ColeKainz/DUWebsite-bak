@@ -34,6 +34,6 @@ form:
                   type: file
                   label: Photograph
                   multiple: false
-                  destination: 'user/media/members'
+                  destination: 'self@'
                   accept:
                     - image/*

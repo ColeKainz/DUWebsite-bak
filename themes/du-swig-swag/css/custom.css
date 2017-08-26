@@ -35,6 +35,8 @@ body {
 		
 		display: flex;
 		flex-direction: row;
+		
+		margin-right: 10px;
 	}
 	
 	.expand-nav {
@@ -54,7 +56,7 @@ body {
 
 	.center-container{
 		width: 100%;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 
 	.header {
@@ -94,6 +96,8 @@ body {
 	.main-nav {
 		width: 200px;
 		float: left;
+		
+		margin-right: 10px;
 	}
 	
 	.expand-nav {
@@ -137,7 +141,7 @@ body {
 		width: 100%;
 		
 		margin-bottom: 20px;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 
 	.body {
@@ -166,7 +170,7 @@ body {
 		width: 1160px;
 		
 		margin-bottom: 20px;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 
 	.body {
@@ -198,7 +202,7 @@ screen size < content size + scrollbar*/
 		width: 1360px;
 		
 		margin-bottom: 20px;
-		margin-top: 50px;	
+		margin-top: 60px;	
 	}
 
 	.header {
@@ -247,7 +251,7 @@ screen size < content size + scrollbar*/
 	padding-left: 0px;
 	
 	list-style-type: none;
-	background-color: #ffffff;
+	background-color: #f0f0f0;
 }
 
 .main-nav ul li {
@@ -256,28 +260,32 @@ screen size < content size + scrollbar*/
 	
 	padding-left: 10px;
 	padding-top: 5px;
-	
+		
 	height: 30px;
 	width: 100%;
 	
-	background-color: #ffffff;
+	background-color: #f0f0f0;
 	
 	border-bottom: 1px solid #f0f0f0;
 }
 
 .main-nav ul li:hover {
-    background-color: #bfbfbf;
-	color: #ffffff;
+    background-color: #fbfbfb;
+}
+
+.main-nav ul li:active {
+    background-color: #e0e0e0;
 }
 
 .main-nav .selected{
-    background-color: #bfbfbf;
-	color: #ffffff;
+    background-color: #fbfbfb;
+	
+	font-weight: bold;
 }
 
 .main-nav ul a {
 	display:block;
-
+	
 	height: 30px;
 
     color: #000000;
